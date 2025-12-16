@@ -32,7 +32,7 @@ npm install
 npx playwright test
 
 ### 📊 Relatórios
-npx playwright test
+npx playwright show-report
 
 ### 📁 Estrutura do projeto
 tests/ → contém os testes automatizados
