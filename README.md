@@ -28,7 +28,7 @@ Após clonar o repositório, execute:
 npm install
 
 
-### 2️⃣ Executar os testes automatizados
+### Executar os testes automatizados
 npx playwright test
 
 ### 📊 Relatórios
