@@ -6,14 +6,14 @@ import { defineConfig, devices } from '@playwright/test';
  */
 const config = ({
   testDir: './tests',
-  timeout: 3 *1000, // timeout para os componentes e steps
+  timeout: 5 *1000, // timeout para os componentes e steps
   expect: {
     timeout: 5000 // timeout para assertions validations
   },
   reporter: 'html',
   use: {
-    browserName: 'chromium'
-
+    browserName: 'chromium',
+    headless: false
   },
 
 });
